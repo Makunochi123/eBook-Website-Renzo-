@@ -22,7 +22,10 @@ body.dark-mode {
 
 /* Header Section */
 .hero {
-    background: #333;
+    background-image: url(LIFE.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     color: white;
     padding: 20px;
     text-align: center;
