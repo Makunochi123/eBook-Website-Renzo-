@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Beautiful Girlfren! >:333</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1 class = "header_text">Do you love me my babuu? :CCC</h1>
+        </div>
+        <div class="gif_container">
+            <div class="tenor-gif-embed" data-postid="14072057895526770479" data-share-method="host" data-aspect-ratio="1.23333" data-width="100%"><a href="https://tenor.com/view/cinnamoroll-wave-gif-14072057895526770479">Cinnamoroll Wave Sticker</a>from <a href="https://tenor.com/search/cinnamoroll+wave-stickers">Cinnamoroll Wave Stickers</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+        </div>
+        <div class = "buttons">
+            <button class="btn" id = "yesButton" onclick="nextPage()">Yes</button>
+            <button class="btn" id="noButton" onmouseover="movebutton()" onclick="moveButton()">No</button>
+            <script>
+                function nextPage() {
+                    window.location.href = "yes.html";
+                }
+
+                function moveButton() {
+                    var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth) - 85;
+                    var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight) - 48;
+
+                    x = Math.max(0, x);
+                    y = Math.max(0, y);
+
+                    document.getElementById('noButton').style.left = x + 'px';
+                    document.getElementById('noButton').style.top = x + 'px';
+                }
+                </script>
+        </div>
+    </div>
+</body>
+</html>
